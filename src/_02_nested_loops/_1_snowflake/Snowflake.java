@@ -24,19 +24,20 @@ public class Snowflake {
 
 		// #5. use a for loop below to do everything ( #6, #7, #8, #9, #12, #13, #14 ) 6 times (use i as the counter)
 
-			for(int i = 0; i < 7; i ++) {
+			for(int i = 0; i < 6; i ++) {
 				rob.setPenColor(128, 128, 128);
 				rob.move(50);
 				rob.turn(60);
-				for(int j = 0; j < 7; j++) {
-					rob.turn(-60);
-					rob.move(50);
-				}
 				if(i % 2 == 0) {
 					rob.setPenColor(33, 15, 200);
 				} else {
 					rob.setPenColor(251, 61, 7);
 				}
+				for(int j = 0; j < 6; j++) {
+					rob.turn(-60);
+					rob.move(50);
+				}
+				
 				rob.setPenColor(128, 128, 128);
 			}
 			// #6. Set the pen color to black
