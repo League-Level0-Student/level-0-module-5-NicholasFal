@@ -26,6 +26,37 @@ public class ForloopGauntlet {
 	for(int sevencount = 7; sevencount < 778; sevencount += 7) {
 		System.out.println(sevencount);
 	}
+	int year = 0;
+	for(int age = 0; age < 13; age++) {
+		year = 2008 + age;
+		System.out.println("In " + year + " I was " + age + " years old.");
+	}
+	for(int repeat = 0; repeat < 3 ; repeat++) {
+		for(int times = 0; times < 3; times++) {
+			System.out.println(repeat + " " + times);
+			}
+	}
+	for(int main = 0; main < 9; main+= 3) {
+		for(int num = 1; num < 4; num++) {
+			System.out.print(main + num  + " ");
+		}
+		System.out.println();
+	}
+	for(int main = 0; main < 100; main+= 10) {
+		for(int num = 1; num < 11; num++) {
+			System.out.print(main + num  + " ");
+		}
+		System.out.println();
+	}
+	for(int stars = 1; stars < 7; stars++) {
+		for(int numberstar = 0; numberstar < stars; numberstar++) {
+			System.out.print("*");
+		}
+		System.out.println();
+	}
+	}
+	}
 }
-}
-}
+
+
+
