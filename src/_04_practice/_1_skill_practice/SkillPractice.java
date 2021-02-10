@@ -34,6 +34,7 @@ public class SkillPractice {
 			JOptionPane.showMessageDialog(null, "You should move to San Diego");
 		}
 		int cars = 0;
+		//hi
 		if(cars == 0) {
 			JOptionPane.showMessageDialog(null, "I use public transportation.");
 		} else if(cars == 1) {
